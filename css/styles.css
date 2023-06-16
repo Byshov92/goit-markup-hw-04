@@ -619,11 +619,11 @@ img {
     position: relative;
     display: block;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
-    
-    .product-link:hover,
-    .product-link:focus {
-        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.product-link:hover,
+.product-link:focus {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .product-overlay-box {
@@ -648,8 +648,8 @@ img {
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.product-item:hover .product-overlay-text,
-.product-item:focus .product-overlay-text {
+.product-link:hover .product-overlay-text,
+.product-link:focus .product-overlay-text {
     transform: translateY(0%);
 }
 
@@ -732,11 +732,11 @@ img {
                                                     height: 8px; */
     fill: var(--main-color);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
-    
-    .modal-btn:hover svg,
-    .modal-btn:focus svg {
-        fill: var(--white-color);
+}
+
+.modal-btn:hover svg,
+.modal-btn:focus svg {
+    fill: var(--white-color);
 }
 
 .is-hidden {
